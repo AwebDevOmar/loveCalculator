@@ -1,1 +1,107 @@
-body{background-color:#ffe3e1}.container{width:650px;height:700px;background-color:#ff9494;margin:0 auto;text-align:center;border-radius:20px}.btn,.crushName,.gifContainer{margin-top:30px}.gifContainer,.headingContainer,.resultContainer{margin-left:auto;margin-right:auto}.headingContainer{width:550px}.heading{font-family:Dancing Script;font-size:60px}.crushName,.yourName{font-size:25px;width:350px;border-radius:10px;background-color:#fff5e4;height:50px;font-family:Roboto;text-align:center}.yourName{border:5px #000;padding-left:10px}.crushName{border:5px}.btn,.result{font-size:32px}.btn{height:50px;width:200px;border-radius:10px;font-family:Roboto;background-color:#ffd1d1;border:none;cursor:pointer;transition-duration:.15s}.gif,.gifContainer{border-radius:20px}.btn:hover{background-color:azure}.gifContainer{height:150px;width:150px}.gif{height:100%;width:100%}.resultContainer{background-color:#ffe3e1;height:60px;width:350px;text-align:center;justify-content:center;border-radius:10px}.visibility{visibility:hidden}.result{font-family:Dancing Script;font-weight:700;padding-top:10px}
+body{
+    background-color: #FFE3E1;
+}
+
+.container{
+    width: 650px;
+    height: 700px;
+    background-color: #FF9494;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.headingContainer{
+    width: 550px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+.heading{
+    font-family: Dancing Script;
+    font-size: 60px;
+}
+
+.yourName{
+    height: 50px;
+    width: 350px;
+    font-family: Roboto;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 5px;
+    border-color: black;
+    padding-left: 10px;
+    text-align: center;
+    background-color: #FFF5E4;
+}
+
+.crushName{
+    font-family: Roboto;
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 5px;
+    background-color: #FFF5E4;
+}
+
+.btn{
+    margin-top: 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 32px;
+    background-color: #FFD1D1;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.15s;
+}
+
+.btn:hover{
+    background-color: azure;
+}
+
+.gifContainer{
+    border-radius: 20px;
+    margin-top:30px;
+    height: 150px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.gif{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.resultContainer{
+    background-color: #FFE3E1;
+    display: ;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+
+.visibility{
+    visibility: hidden;
+}
+
+.result{
+    font-family: Dancing Script;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 10px;
+    
+}
